@@ -1,0 +1,54 @@
+# stacks
+
+> Machine-readable project context for LLMs, crawlers, and agentic coding tools.
+
+Last checked: 2026-07-04
+
+## Canonical Links
+
+- Repository: https://github.com/ellmos-ai/stacks
+- Ecosystem: https://github.com/ellmos-ai
+- Manifest schema reference: https://github.com/ellmos-ai/stacks/blob/main/docs/manifest-schema.md
+- Worked example (agent-ops-stack): https://github.com/ellmos-ai/agent-ops-stack
+- Original all-in-one stack: https://github.com/ellmos-ai/ellmos-stack
+
+## Summary
+
+`stacks` is the catalog and composition-principle overview for the ellmos-ai "stack"
+family. A stack is a self-contained repository composing existing, independently
+publishable modules via one manifest file (`ellmos-stack-manifest-v1`) plus a thin
+installer — no vendored code copies. This repository does not run anything itself; it
+documents the shared manifest schema and indexes every known stack.
+
+## Audience and Positioning
+
+Use this repository to find which ellmos-ai stack fits a given need, to understand the
+manifest-driven composition principle ("the installation is the blueprint"), or as a
+schema reference when building a new stack.
+
+Do not describe it as a runnable service, a deployment target, or a monorepo of stack
+source code — it contains no application code itself.
+
+## Search Phrases
+
+- ellmos-ai stack catalog
+- ellmos stack family overview
+- manifest-driven module composition
+- installation is the blueprint
+- ellmos-stack-manifest-v1 schema
+
+## Disambiguation
+
+`stacks` is unrelated to cloud "stack" products (AWS CloudFormation stacks, Terraform
+stacks, full-stack web frameworks) — it is a documentation/catalog repository specific
+to the `ellmos-ai` GitHub organization's own composition convention.
+
+## Primary Interfaces
+
+- `README.md` / `README_de.md`: the stack catalog table and the composition principle.
+- `docs/manifest-schema.md`: the `ellmos-stack-manifest-v1` field reference.
+
+## Safety Boundaries
+
+This repository contains no executable code, no secrets, and no network calls. It is
+documentation and a schema reference only.

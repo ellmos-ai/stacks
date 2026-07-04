@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" role="img" aria-label="stacks">
+  <title>stacks</title>
+  <rect x="0" y="0" width="1000" height="240" rx="18" fill="#0f111a"/>
+  <rect x="0" y="0" width="6" height="240" fill="#22c55e"/>
+
+  <!-- Icon (three composed layers = a stack of modules) -->
+  <g transform="translate(60,58)">
+    <polygon points="70,0 140,30 70,60 0,30" fill="none" stroke="#22c55e" stroke-width="6" stroke-linejoin="round"/>
+    <polygon points="70,50 140,80 70,110 0,80" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linejoin="round"/>
+    <polygon points="70,100 140,130 70,160 0,130" fill="none" stroke="#f59e0b" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Wordmark + tagline -->
+  <text x="248" y="118" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="62" font-weight="700" fill="#ffffff">stacks</text>
+  <text x="251" y="160" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="24" fill="#9ca3af">catalog + composition principle for the ellmos-ai stack family</text>
+</svg>
