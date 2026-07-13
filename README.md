@@ -35,10 +35,10 @@ on its own domain instead of re-explaining the composition principle.
 | ellmos-dev-stack | Software development & DevOps: code analysis, CI/CD integration, repo monitoring | Planned | — |
 | ellmos-media-stack | Content creation & media: transcription, summarization, media processing pipelines | Planned | — |
 
-The first three rows (all-in-one, research, dev, media specializations building on the
-same Ollama + n8n + Rinnsal base) originate from the **Stack Family** table in
+The `ellmos-stack` row and the planned research/dev/media specializations originate
+from the **Stack Family** table in
 [ellmos-ai/ellmos-stack](https://github.com/ellmos-ai/ellmos-stack#stack-family); this
-catalog is the intended long-term single source for that table. `agent-ops-stack` is a
+catalog is the intended long-term single source for that family. `agent-ops-stack` is a
 second, independent stack family: it composes local **agent-ops** tooling (coordination
 between AI coding agents on one machine/user) rather than a server-side research
 automation stack.

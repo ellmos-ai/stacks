@@ -45,7 +45,7 @@ installer code.
 | `description` | One sentence, human-readable. |
 | `modules[].name` | Short module identifier, used in `wiring` references. |
 | `modules[].source` | Where to fetch the module from. Currently `type: "github"` (repo + ref); other source types (`local`, `ollama`, package registries) are used by private/derived manifests but not required here. |
-| `modules[].kind` | Rough category, used for grouping/filtering, not for behavior. |
+| `modules[].kind` | Rough category, used for grouping/filtering, not for behavior. Public stack manifests currently use one of `core`, `infra`, `mcp`, `skills`, `installer`, `comm`, or `deploy`. |
 | `modules[].enabled` | Optional, defaults to `true`. `false` marks a module that is planned/documented but not yet installed by the installer. |
 | `modules[].boundaries` | Declares what the module is allowed to touch: network reach (`net`), filesystem paths it needs, and any tool-name prefixes it exposes (e.g. an MCP server's tool namespace). Documentation, not sandboxing — the installer does not enforce it. |
 | `modules[].wiring.provides` | Capability names this module offers to the rest of the stack. |

@@ -36,10 +36,10 @@ Kompositionsprinzip jedes Mal neu zu erklären.
 | ellmos-dev-stack | Softwareentwicklung & DevOps: Code-Analyse, CI/CD-Integration, Repo-Monitoring | Geplant | — |
 | ellmos-media-stack | Content-Erstellung & Medien: Transkription, Zusammenfassung, Medien-Pipelines | Geplant | — |
 
-Die ersten drei Spezialisierungen (All-in-One, Research, Dev, Media auf derselben
-Ollama + n8n + Rinnsal-Basis) stammen aus der **Stack-Family**-Tabelle in
+Die `ellmos-stack`-Zeile und die geplanten Research-/Dev-/Media-Spezialisierungen
+stammen aus der **Stack-Family**-Tabelle in
 [ellmos-ai/ellmos-stack](https://github.com/ellmos-ai/ellmos-stack#stack-family); dieser
-Katalog soll langfristig die eine zentrale Quelle für diese Tabelle werden.
+Katalog soll langfristig die eine zentrale Quelle für diese Familie werden.
 `agent-ops-stack` ist eine zweite, unabhängige Stack-Familie: Er komponiert lokale
 **Agent-Ops**-Werkzeuge (Koordination zwischen KI-Coding-Agenten auf einer
 Maschine/einem Nutzer) statt eines serverseitigen Forschungs-Automatisierungs-Stacks.
