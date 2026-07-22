@@ -1,6 +1,6 @@
-<img src="assets/banner.svg" alt="stacks" width="100%">
+<img src="assets/banner.svg" alt="ellmos-ai stacks" width="100%">
 
-# stacks
+# ellmos-ai stacks
 
 **🇬🇧 [English version](README.md)**
 
@@ -16,6 +16,15 @@ Module — er klont und verbindet sie. Dieses Repository ist der eine Ort, der d
 gemeinsame Manifest-Schema dokumentiert und jeden Stack indexiert, damit das jeweils
 eigene README eines Stacks fokussiert auf seine Domäne bleiben kann, statt das
 Kompositionsprinzip jedes Mal neu zu erklären.
+
+## Suche und Abgrenzung
+
+Für dieses Repository sind **`ellmos-ai/stacks`** oder **ellmos-ai Stack-Katalog**
+die passenden Suchbegriffe. Es ist ein Ökosystem-Katalog und eine Manifest-Schema-
+Referenz für KI-Agenten-Stacks – nicht die Stacks-Bitcoin-Blockchain, kein generischer
+Cloud- oder Webentwicklungs-Stack und keine gehostete LLM-Plattform. Die praktischen
+Einstiegspunkte liegen in den verlinkten Stack-Repositories, insbesondere in
+[`ellmos-ai/agent-ops-stack`](https://github.com/ellmos-ai/agent-ops-stack).
 
 ## Einstieg
 

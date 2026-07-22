@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Clarified the canonical `ellmos-ai/stacks` search context and its distinction from
+  the Stacks Bitcoin blockchain, generic cloud stacks, and hosted LLM platforms.
+- Refreshed crawler context and banner accessibility metadata.
+
 ## 1.0.1 (2026-07-13)
 
 - Clarified that `agent-ops-stack` is an independent stack family, while

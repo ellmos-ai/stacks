@@ -1,8 +1,8 @@
-# stacks
+# ellmos-ai stacks
 
 > Machine-readable project context for LLMs, crawlers, and agentic coding tools.
 
-Last checked: 2026-07-13
+Last checked: 2026-07-22
 
 ## Canonical Links
 
@@ -32,16 +32,20 @@ source code — it contains no application code itself.
 ## Search Phrases
 
 - ellmos-ai stack catalog
+- ellmos-ai stacks
 - ellmos stack family overview
 - manifest-driven module composition
 - installation is the blueprint
 - ellmos-stack-manifest-v1 schema
+- AI agent stack catalog
 
 ## Disambiguation
 
-`stacks` is unrelated to cloud "stack" products (AWS CloudFormation stacks, Terraform
-stacks, full-stack web frameworks) — it is a documentation/catalog repository specific
-to the `ellmos-ai` GitHub organization's own composition convention.
+`ellmos-ai/stacks` is unrelated to the Stacks Bitcoin blockchain and cloud "stack"
+products (AWS CloudFormation stacks, Terraform stacks, full-stack web frameworks). It
+is also not a hosted LLM platform. It is a documentation/catalog repository specific
+to the `ellmos-ai` GitHub organization's own composition convention; use the linked
+stack repositories when an installable composition is needed.
 
 ## Primary Interfaces
 

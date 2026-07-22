@@ -1,6 +1,6 @@
-<img src="assets/banner.svg" alt="stacks" width="100%">
+<img src="assets/banner.svg" alt="ellmos-ai stacks" width="100%">
 
-# stacks
+# ellmos-ai stacks
 
 **🇩🇪 [Deutsche Version](README_de.md)**
 
@@ -15,6 +15,14 @@ installer. A stack does **not** duplicate the code of the modules it lists — i
 and connects them. This repository is the single place that documents the shared
 manifest schema and indexes every stack, so each stack's own README can stay focused
 on its own domain instead of re-explaining the composition principle.
+
+## Search and disambiguation
+
+Use **`ellmos-ai/stacks`** or **ellmos-ai stack catalog** when looking for this
+repository. It is an ecosystem catalog and manifest-schema reference for AI-agent
+stacks; it is not the Stacks Bitcoin blockchain, a generic cloud or web-development
+stack, or a hosted LLM platform. The catalog's actionable entry points are the stack
+repositories it links, especially [`ellmos-ai/agent-ops-stack`](https://github.com/ellmos-ai/agent-ops-stack).
 
 ## Start here
 
