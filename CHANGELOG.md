@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Named cross-machine sync in the `agent-ops-stack` catalog entry (README EN/DE,
+  `llms.txt`). That stack gained `sync-master` as a seventh module on 2026-07-23;
+  the catalog still described the six-module capability set.
 - Clarified the canonical `ellmos-ai/stacks` search context and its distinction from
   the Stacks Bitcoin blockchain, generic cloud stacks, and hosted LLM platforms.
 - Refreshed crawler context and banner accessibility metadata.

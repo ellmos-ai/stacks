@@ -28,8 +28,8 @@ Active stacks:
   (Ollama + n8n + Rinnsal + KnowledgeDigest + research pipeline).
   https://github.com/ellmos-ai/ellmos-stack
 - agent-ops-stack — multi-agent coordination and personal-assistant tooling for local
-  CLI coding agents: ticket routing, file locking, decision avatar, shared skill format,
-  MCP control plane. https://github.com/ellmos-ai/agent-ops-stack
+  CLI coding agents: ticket routing, file locking, cross-machine sync, decision avatar,
+  shared skill format, MCP control plane. https://github.com/ellmos-ai/agent-ops-stack
 
 Planned, no repository yet: ellmos-research-stack (academic research and literature),
 ellmos-dev-stack (software development and DevOps), ellmos-media-stack (content

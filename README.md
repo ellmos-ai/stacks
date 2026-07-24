@@ -38,7 +38,7 @@ repositories it links, especially [`ellmos-ai/agent-ops-stack`](https://github.c
 | Stack | Focus | Status | Repository |
 |-------|-------|--------|-------------|
 | **ellmos-stack** | Self-hosted AI research & knowledge automation (Ollama + n8n + Rinnsal + KnowledgeDigest + research pipeline) | Active | [ellmos-ai/ellmos-stack](https://github.com/ellmos-ai/ellmos-stack) |
-| **agent-ops-stack** | Multi-agent coordination and personal-assistant tooling for local CLI coding agents: ticket routing, file locking, a decision-avatar, a shared skill format, and an MCP control plane | Active | [ellmos-ai/agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) |
+| **agent-ops-stack** | Multi-agent coordination and personal-assistant tooling for local CLI coding agents: ticket routing, file locking, cross-machine sync, a decision-avatar, a shared skill format, and an MCP control plane | Active | [ellmos-ai/agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) |
 | ellmos-research-stack | Academic research & literature: PubMed/arXiv pipelines, bibliography tools, citation networks | Planned | — |
 | ellmos-dev-stack | Software development & DevOps: code analysis, CI/CD integration, repo monitoring | Planned | — |
 | ellmos-media-stack | Content creation & media: transcription, summarization, media processing pipelines | Planned | — |

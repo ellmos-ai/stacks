@@ -40,7 +40,7 @@ Einstiegspunkte liegen in den verlinkten Stack-Repositories, insbesondere in
 | Stack | Fokus | Status | Repository |
 |-------|-------|--------|-------------|
 | **ellmos-stack** | Selbst-gehostete KI-Forschungs- und Wissensautomatisierung (Ollama + n8n + Rinnsal + KnowledgeDigest + Research-Pipeline) | Aktiv | [ellmos-ai/ellmos-stack](https://github.com/ellmos-ai/ellmos-stack) |
-| **agent-ops-stack** | Multi-Agent-Koordination und persönliche Assistenz-Werkzeuge für lokale CLI-Coding-Agenten: Ticket-Routing, Datei-Sperren, ein Entscheidungs-Avatar, ein gemeinsames Skill-Format und eine MCP-Steuerebene | Aktiv | [ellmos-ai/agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) |
+| **agent-ops-stack** | Multi-Agent-Koordination und persönliche Assistenz-Werkzeuge für lokale CLI-Coding-Agenten: Ticket-Routing, Datei-Sperren, maschinenübergreifende Synchronisation, ein Entscheidungs-Avatar, ein gemeinsames Skill-Format und eine MCP-Steuerebene | Aktiv | [ellmos-ai/agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) |
 | ellmos-research-stack | Akademische Forschung & Literatur: PubMed/arXiv-Pipelines, Bibliografie-Werkzeuge, Zitationsnetzwerke | Geplant | — |
 | ellmos-dev-stack | Softwareentwicklung & DevOps: Code-Analyse, CI/CD-Integration, Repo-Monitoring | Geplant | — |
 | ellmos-media-stack | Content-Erstellung & Medien: Transkription, Zusammenfassung, Medien-Pipelines | Geplant | — |
