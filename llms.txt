@@ -2,7 +2,7 @@
 
 > Machine-readable project context for LLMs, crawlers, and agentic coding tools.
 
-Last checked: 2026-07-22
+Last checked: 2026-07-24
 
 ## Canonical Links
 
@@ -19,6 +19,21 @@ family. A stack is a self-contained repository composing existing, independently
 publishable modules via one manifest file (`ellmos-stack-manifest-v1`) plus a thin
 installer — no vendored code copies. This repository does not run anything itself; it
 documents the shared manifest schema and indexes every known stack.
+
+## Catalog
+
+Active stacks:
+
+- ellmos-stack — self-hosted AI research and knowledge automation
+  (Ollama + n8n + Rinnsal + KnowledgeDigest + research pipeline).
+  https://github.com/ellmos-ai/ellmos-stack
+- agent-ops-stack — multi-agent coordination and personal-assistant tooling for local
+  CLI coding agents: ticket routing, file locking, decision avatar, shared skill format,
+  MCP control plane. https://github.com/ellmos-ai/agent-ops-stack
+
+Planned, no repository yet: ellmos-research-stack (academic research and literature),
+ellmos-dev-stack (software development and DevOps), ellmos-media-stack (content
+creation and media). The catalog table in README.md is authoritative for this list.
 
 ## Audience and Positioning
 
