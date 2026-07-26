@@ -1,8 +1,15 @@
 <img src="assets/banner.svg" alt="ellmos-ai stacks" width="100%">
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Ecosystem: ellmos-ai](https://img.shields.io/badge/Ecosystem-ellmos--ai-purple.svg)](https://github.com/ellmos-ai)
+[![llms.txt](https://img.shields.io/badge/llms.txt-verified-green.svg)](llms.txt)
+
 # ellmos-ai stacks
 
 **🇬🇧 [English version](README.md)**
+
+> [!NOTE]
+> `ellmos-ai/stacks` dient als zentrale Schema-Spezifikation und Katalog-Index für alle manifest-getriebenen KI-Agenten-Stacks im [ellmos-ai](https://github.com/ellmos-ai)-Ökosystem. Für maschinenlesbaren Kontext siehe [`llms.txt`](llms.txt) oder [`docs/manifest-schema.md`](docs/manifest-schema.md).
 
 Der Katalog und das Kompositionsprinzip für jeden **Stack** im
 [ellmos-ai](https://github.com/ellmos-ai)-Ökosystem.
@@ -25,6 +32,18 @@ Referenz für KI-Agenten-Stacks – nicht die Stacks-Bitcoin-Blockchain, kein ge
 Cloud- oder Webentwicklungs-Stack und keine gehostete LLM-Plattform. Die praktischen
 Einstiegspunkte liegen in den verlinkten Stack-Repositories, insbesondere in
 [`ellmos-ai/agent-ops-stack`](https://github.com/ellmos-ai/agent-ops-stack).
+
+## Architektur & Ökosystem-Komposition
+
+```mermaid
+graph TD
+    Catalog["ellmos-ai/stacks (Katalog & Schema)"] --> ManifestSpec["Manifest-Schema (ellmos-stack-manifest-v1)"]
+    Catalog --> Stack1["ellmos-stack (Forschung & Wissensautomatisierung)"]
+    Catalog --> Stack2["agent-ops-stack (Multi-Agent-CLI-Koordination)"]
+    
+    Stack1 --> M1["Ollama / Rinnsal / KnowledgeDigest / n8n"]
+    Stack2 --> M2["FileCommander / CodeCommander / ControlCenter / LockMaster / SyncMaster"]
+```
 
 ## Einstieg
 
