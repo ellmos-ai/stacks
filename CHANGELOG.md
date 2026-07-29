@@ -1,12 +1,5 @@
 # Changelog
 
-## 1.0.2 (2026-07-26)
-
-- Enhanced repository discoverability and visual design (Path B audit).
-- Added Shields.io badges (License, Ecosystem, llms.txt) and GFM AI callout notes to `README.md` and `README_de.md`.
-- Added Mermaid system architecture diagram illustrating catalog & manifest schema composition.
-- Refreshed `llms.txt` verification timestamp to 2026-07-26.
-
 ## Unreleased
 
 - Named cross-machine sync in the `agent-ops-stack` catalog entry (README EN/DE,
@@ -15,6 +8,13 @@
 - Clarified the canonical `ellmos-ai/stacks` search context and its distinction from
   the Stacks Bitcoin blockchain, generic cloud stacks, and hosted LLM platforms.
 - Refreshed crawler context and banner accessibility metadata.
+
+## 1.0.2 (2026-07-26)
+
+- Enhanced repository discoverability and visual design (Path B audit).
+- Added Shields.io badges (License, Ecosystem, llms.txt) and GFM AI callout notes to `README.md` and `README_de.md`.
+- Added Mermaid system architecture diagram illustrating catalog & manifest schema composition.
+- Refreshed `llms.txt` verification timestamp to 2026-07-26.
 
 ## 1.0.1 (2026-07-13)
 
