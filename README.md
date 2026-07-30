@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" alt="ellmos-ai stacks" width="100%">
+<img src="assets/banner.png" alt="ellmos-ai stacks" width="100%">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Ecosystem: ellmos-ai](https://img.shields.io/badge/Ecosystem-ellmos--ai-purple.svg)](https://github.com/ellmos-ai)
