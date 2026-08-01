@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Integrated the official ellmos-ai umbrella banner (`assets/stacks-umbrella-banner.png`) into `README.md` and `README_de.md` as central repository visual recognition header (Ref T-20260801-13).
 - Named cross-machine sync in the `agent-ops-stack` catalog entry (README EN/DE,
   `llms.txt`). That stack gained `sync-master` as a seventh module on 2026-07-23;
   the catalog still described the six-module capability set.
