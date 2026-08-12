@@ -14,6 +14,9 @@
 The catalog and composition-principle overview for every **stack** in the
 [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
 
+> [!TIP]
+> **⚡ Try it in the browser:** the [stack composer](https://ellmos-ai.github.io/stack-composer.html) assembles a stack from public modules with live composition-rule checks and `stack.v2.json` export — and the [module circuit map](https://ellmos-ai.github.io) shows what all those modules do.
+
 Machine-readable context for LLMs and agentic coding tools: [`llms.txt`](llms.txt).
 
 A "stack" here is a self-contained, publishable bundle: a **manifest** that lists which

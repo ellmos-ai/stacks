@@ -14,6 +14,9 @@
 Der Katalog und das Kompositionsprinzip für jeden **Stack** im
 [ellmos-ai](https://github.com/ellmos-ai)-Ökosystem.
 
+> [!TIP]
+> **⚡ Im Browser ausprobieren:** Der [Stack-Composer](https://ellmos-ai.github.io/stack-composer.html) stellt aus öffentlichen Modulen einen Stack zusammen — mit Live-Regelprüfung und `stack.v2.json`-Export; der [Modul-Schaltplan](https://ellmos-ai.github.io) zeigt, was all diese Module tun.
+
 Maschinenlesbarer Kontext für LLMs und agentische Coding-Tools: [`llms.txt`](llms.txt).
 
 Ein „Stack" ist hier ein eigenständiges, publizierbares Bündel: ein **Manifest**, das
