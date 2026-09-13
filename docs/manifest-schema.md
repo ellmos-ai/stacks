@@ -44,7 +44,7 @@ installer code.
 | `name` | Short stack identifier, matches the repo name by convention. |
 | `description` | One sentence, human-readable. |
 | `modules[].name` | Short module identifier, used in `wiring` references. |
-| `modules[].source` | Where to fetch the module from. Currently `type: "github"` (repo + ref); other source types (`local`, `ollama`, package registries) are used by private/derived manifests but not required here. |
+| `modules[].source` | Where to fetch the module from. Currently `type: "github"` (repo + ref); other source types (`local`, `ollama`, package registries) are used by private/derived manifests but not required here. For a third-party module, an installation lock must resolve `ref` to an immutable commit SHA; a moving branch alone is not an admissible installed state. |
 | `modules[].kind` | Rough category, used for grouping/filtering, not for behavior. Public stack manifests currently use one of `core`, `infra`, `mcp`, `skills`, `installer`, `comm`, or `deploy`. |
 | `modules[].enabled` | Optional, defaults to `true`. `false` marks a module that is planned/documented but not yet installed by the installer. |
 | `modules[].boundaries` | Declares what the module is allowed to touch: network reach (`net`), filesystem paths it needs, and any tool-name prefixes it exposes (e.g. an MCP server's tool namespace). Documentation, not sandboxing — the installer does not enforce it. |
@@ -71,3 +71,11 @@ touching every module that consumes it — the installer/wiring layer resolves
 
 See [`ellmos-ai/agent-ops-stack`](https://github.com/ellmos-ai/agent-ops-stack) for a
 worked example (`agent-ops.manifest.json` + a small installer that reads it).
+
+## Third-party modules
+
+Schema v1 can describe where a module comes from, but it cannot yet carry the
+complete admission and removal evidence required for third-party code. Do not
+interpret a v1 manifest entry as a trust decision. Until the backward-compatible
+extension in [`KONZEPT.md`](../KONZEPT.md) is implemented, third-party entries stay
+disabled or quarantined and must have a separate, explicit adoption record.
