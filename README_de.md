@@ -42,10 +42,10 @@ Einstiegspunkte liegen in den verlinkten Stack-Repositories, insbesondere in
 graph TD
     Catalog["ellmos-ai/stacks (Katalog & Schema)"] --> ManifestSpec["Manifest-Schema (ellmos-stack-manifest-v1)"]
     Catalog --> Stack1["ellmos-stack (Forschung & Wissensautomatisierung)"]
-    Catalog --> Stack2["agent-ops-stack (Multi-Agent-CLI-Koordination)"]
+    Catalog --> Stack2["agent-ops-stack (manifestbasierte Git-Fetch-Vorlage)"]
     
     Stack1 --> M1["Ollama / Rinnsal / KnowledgeDigest / n8n"]
-    Stack2 --> M2["FileCommander / CodeCommander / ControlCenter / LockMaster / SyncMaster"]
+    Stack2 --> M2["Im Manifest gelistete Module"]
 ```
 
 ## Einstieg
@@ -62,7 +62,7 @@ graph TD
 | Stack | Fokus | Status | Repository |
 |-------|-------|--------|-------------|
 | **ellmos-stack** | Selbst-gehostete KI-Forschungs- und Wissensautomatisierung (Ollama + n8n + Rinnsal + KnowledgeDigest + Research-Pipeline) | Aktiv | [ellmos-ai/ellmos-stack](https://github.com/ellmos-ai/ellmos-stack) |
-| **agent-ops-stack** | Multi-Agent-Koordination und persönliche Assistenz-Werkzeuge für lokale CLI-Coding-Agenten: Ticket-Routing, Datei-Sperren, maschinenübergreifende Synchronisation, ein Entscheidungs-Avatar, ein gemeinsames Skill-Format und eine MCP-Steuerebene | Aktiv | [ellmos-ai/agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) |
+| **agent-ops-stack** | Manifestbasierte Git-Fetch-Vorlage für lokale CLI-Agentenwerkzeuge; Installer klont aufgeführte Module und meldet deklarierte Verdrahtungslabels; die Einrichtung folgt den Anleitungen der jeweiligen Module | Aktiv | [ellmos-ai/agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) |
 | ellmos-research-stack | Akademische Forschung & Literatur: PubMed/arXiv-Pipelines, Bibliografie-Werkzeuge, Zitationsnetzwerke | Geplant | — |
 | ellmos-dev-stack | Softwareentwicklung & DevOps: Code-Analyse, CI/CD-Integration, Repo-Monitoring | Geplant | — |
 | ellmos-media-stack | Content-Erstellung & Medien: Transkription, Zusammenfassung, Medien-Pipelines | Geplant | — |
@@ -71,9 +71,8 @@ Die `ellmos-stack`-Zeile und die geplanten Research-/Dev-/Media-Spezialisierunge
 stammen aus der **Stack-Family**-Tabelle in
 [ellmos-ai/ellmos-stack](https://github.com/ellmos-ai/ellmos-stack#stack-family); dieser
 Katalog soll langfristig die eine zentrale Quelle für diese Familie werden.
-`agent-ops-stack` ist eine zweite, unabhängige Stack-Familie: Er komponiert lokale
-**Agent-Ops**-Werkzeuge (Koordination zwischen KI-Coding-Agenten auf einer
-Maschine/einem Nutzer) statt eines serverseitigen Forschungs-Automatisierungs-Stacks.
+`agent-ops-stack` ist eine zweite, unabhängige Familie mit eigenem Manifest, getrennt von
+der ursprünglichen Familientabelle von `ellmos-stack`.
 
 ## Was ist ein Stack
 

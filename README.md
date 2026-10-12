@@ -40,10 +40,10 @@ repositories it links, especially [`ellmos-ai/agent-ops-stack`](https://github.c
 graph TD
     Catalog["ellmos-ai/stacks (Catalog & Schema)"] --> ManifestSpec["Manifest Schema (ellmos-stack-manifest-v1)"]
     Catalog --> Stack1["ellmos-stack (Research & Knowledge Automation)"]
-    Catalog --> Stack2["agent-ops-stack (Multi-Agent CLI Coordination)"]
+    Catalog --> Stack2["agent-ops-stack (manifest-based Git fetch blueprint)"]
     
     Stack1 --> M1["Ollama / Rinnsal / KnowledgeDigest / n8n"]
-    Stack2 --> M2["FileCommander / CodeCommander / ControlCenter / LockMaster / SyncMaster"]
+    Stack2 --> M2["Manifest-listed modules"]
 ```
 
 ## Start here
@@ -60,7 +60,7 @@ graph TD
 | Stack | Focus | Status | Repository |
 |-------|-------|--------|-------------|
 | **ellmos-stack** | Self-hosted AI research & knowledge automation (Ollama + n8n + Rinnsal + KnowledgeDigest + research pipeline) | Active | [ellmos-ai/ellmos-stack](https://github.com/ellmos-ai/ellmos-stack) |
-| **agent-ops-stack** | Multi-agent coordination and personal-assistant tooling for local CLI coding agents: ticket routing, file locking, cross-machine sync, a decision-avatar, a shared skill format, and an MCP control plane | Active | [ellmos-ai/agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) |
+| **agent-ops-stack** | Manifest-based Git fetch blueprint for local CLI-agent tools; installer clones listed modules and reports declared wiring labels; setup follows each module's instructions | Active | [ellmos-ai/agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) |
 | ellmos-research-stack | Academic research & literature: PubMed/arXiv pipelines, bibliography tools, citation networks | Planned | — |
 | ellmos-dev-stack | Software development & DevOps: code analysis, CI/CD integration, repo monitoring | Planned | — |
 | ellmos-media-stack | Content creation & media: transcription, summarization, media processing pipelines | Planned | — |
@@ -69,9 +69,7 @@ The `ellmos-stack` row and the planned research/dev/media specializations origin
 from the **Stack Family** table in
 [ellmos-ai/ellmos-stack](https://github.com/ellmos-ai/ellmos-stack#stack-family); this
 catalog is the intended long-term single source for that family. `agent-ops-stack` is a
-second, independent stack family: it composes local **agent-ops** tooling (coordination
-between AI coding agents on one machine/user) rather than a server-side research
-automation stack.
+second, independent family with its own manifest, separate from the original `ellmos-stack` family table.
 
 ## What is a stack
 
